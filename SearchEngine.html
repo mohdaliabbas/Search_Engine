@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" id="i">
+    <input type="text" id="j"> -->
+    <input type="text" placeholder="Enter text" onblur="getVal()">
+    <!-- <input type="checkbox" onchange="getChecked()" id='check1'> -->
+    <button id="sub" onclick="add()">Submit</button>
+</body>
+<script>
+        
+        function getVal() {
+  const val = document.querySelector('input').value;
+            window.open("https://"+"www."+val+".com");
+            
+}
+function add(){
+
+}
+function getChecked() {
+  const checkBox = document.getElementById('check1').checked;
+  if (checkBox === true) {
+    console.log(true);
+    } else {
+      console.log(false);
+  }
+}
+
+
+
+    // a=document.getElementById(i);
+
+    // console.log(a);
+    // function add(){
+
+    // b=document.getElementById(i).inputMode();
+
+    // console.log(b);
+    
+</script>
+</html>
